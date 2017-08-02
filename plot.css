@@ -10,9 +10,9 @@ h1 {
 	font-family: 'Kranky', cursive;
 	color: #E32F21;
 	border: 3px #181619 solid;
-	padding-top: 5px;
-    padding-bottom: 70px;
-    padding-left: 10px;
+	padding-top: 1%;
+    padding-bottom: 7%;
+    padding-left: 5%;
     text-transform: lowercase;
     border-radius: 10px;
 }
@@ -24,7 +24,7 @@ this is mostly to help with positioning */
 	position: fixed;
 	top: 0px;
 	left: 0px;
-	width: 500px;
+	width: 100%;
 	height: 200px;
 }
 
