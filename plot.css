@@ -30,6 +30,11 @@ this is mostly to help with positioning */
     text-transform: lowercase;
     border-radius: 10px;
     background-color: #ABCCBD;
+    background: #ABCCBD; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#ABCCBD, #7DBEB8); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#ABCCBD, #7DBEB8); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#ABCCBD, #7DBEB8); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#ABCCBD, #7DBEB8); /* Standard syntax */
     z-index: 2;
 }
 
