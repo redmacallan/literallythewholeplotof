@@ -6,11 +6,24 @@
         <link href='css/bootstrap.css' rel='stylesheet'>
   		<link rel='stylesheet' type='text/css' href='plot.css'>
         <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+
+        <!-- Scripts go here -->
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+            <script> 
+            $(document).ready(function(){
+            $("#flip").click(function(){
+            $("#panel").slideToggle("slow");
+                });
+                });
+            </script>
     </head>
     <body>
         <div class="jumbotron">
-            <div class="header"><h1>literallythewholeplotof...</h1></div>
+            <div class="img-responsive header"><h1>literallythewholeplotof...</h1></div>
             <h2>x</h2>
+
+            <div id="flip">Click to slide the panel down or up</div>
+            <div id="panel">Hello world!</div>
 
             
             <div id="about"><h3>What is this site?</h3></div>
@@ -19,21 +32,6 @@
     <!-- Popular series section. Has buttons. Almost ended me.-->
             
             <div class = "text-center container popbuttons">
-                <div id="popular1">
-                    <button class="btn-primary col-sm-3" type="button"> title 1</button> 
-                </div>
-                
-                <div id="popular2">
-                    <button class="btn-primary col-sm-3" type="button"> title 2</button>
-                </div>
-
-                <div id="popular3">
-                    <button class="btn-primary col-sm-3" type="button"> title 3</button>
-                </div>
-
-                <div id="popular4">
-                    <button class="btn-primary col-sm-3" type="button"> title 4</button>
-                </div>
 
                 <div>
                     <img class= "img-circle" src="images/starwars.jpg" style="width:100px;height:100px;">
