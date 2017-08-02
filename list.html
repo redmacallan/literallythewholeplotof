@@ -3,49 +3,54 @@
     <head>
         <title>list</title>
         <link href="https://fonts.googleapis.com/css?family=Kranky|Roboto" rel="stylesheet">
-  		<link rel='stylesheet' type='text/css' href='plot.css'>
+        <link rel='stylesheet' href='css/bootstrap.min.css'>
+  		<link rel='stylesheet' href='plot.css'>
     </head>
     <body>
-        <div class="header"><h1>literallythewholeplotof...</h1></div>
-        <h2>x</h2>
+        <div class= "jumbotron">
+            <div class="header"><h1>literallythewholeplotof...</h1></div>
+            <h2 class="top">Find a Series</h2>
+                <div class="container">
+                    <div class="categorySearch">
+                    <h3>search by category</h3>
+                    <ul> 
+                        <li><a href="#action"> action </a></li>
+                        <li><a href="#comedy"> comedy </a></li>
+                        <li><a href="#drama"> drama </a></li>
+                        <li><a href="#horror"> horror </a></li>
+                        <li><a href="#mystery"> mystery </a></li>
+                        <li><a href="#romance"> romance </a></li>
+                        <li><a href="#scifi">scifi </a></li>
+                    </ul>
+                    </div>
 
-        <h3>search by category</h3>
-        <ul> 
-            <li><a href="#action"> action </a></li>
-            <li><a href="#comedy"> comedy </a></li>
-            <li><a href="#drama"> drama </a></li>
-            <li><a href="#horror"> horror </a></li>
-            <li><a href="#mystery"> mystery </a></li>
-            <li><a href="#romance"> romance </a></li>
-            <li><a href="#scifi">scifi </a></li>
-        </ul>
+                    <div class="categoryLinks">
+                    <a name = "action"><h3>action</h3></a>
+
+                    <a name = "comedy"><h3>comedy</h3></a>
+
+                    <a name = "drama"><h3>drama</h3></a>
+
+                    <a name = "horror"><h3>horror</h3></a>
+
+                    <a name = "mystery"><h3>mystery</h3></a>
+
+                    <a name = "romance"><h3>romance</h3></a>
+
+                    <a name = "scifi"><h3>scifi</h3></a>
+                    </div>
+
+                    <div class="swPreview col-sm-4">
+                        <img class= "img-circle" src="images/starwars.jpg" style="width:100px;height:100px;">
+                        <a href="starwars.html">star wars</a>
+                    </div>
+                    <div class="swPreview col-sm-4">
+                        description
+                    </div>
+                </div>
 
 
-        <a name = "action"><h3>action</h3></a>
-
-        <a name = "comedy"><h3>comedy</h3></a>
-
-        <a name = "drama"><h3>drama</h3></a>
-
-        <a name = "horror"><h3>horror</h3></a>
-
-        <a name = "mystery"><h3>mystery</h3></a>
-
-        <a name = "romance"><h3>romance</h3></a>
-
-        <a name = "scifi"><h3>scifi</h3></a>
-
-            <div>
-                <img src="images/starwars.jpg" style="width:100px;height:100px;">
-                <a href="starwars.html">star wars</a>
-            </div>
-            <div>
-                description
-            </div>
-
-
-
-        <div id="more"><button type="button"> find more titles </button></div>
+            <div id="more"><button type="button"> find more titles </button></div>
 
     </body>
 </html>

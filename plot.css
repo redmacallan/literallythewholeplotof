@@ -18,8 +18,10 @@ this is mostly to help with positioning */
 	top: 0px;
 	left: 0px;
 	width: 98%;
-	height: 200px;
+	height: 25%;
+	min-height: 50px;
 	font-family: 'Kranky', cursive;
+	font-size: 200%;
 	color: #E32F21;
 	border: 3px #181619 solid;
 	padding-top: 1%;
@@ -28,6 +30,28 @@ this is mostly to help with positioning */
     text-transform: lowercase;
     border-radius: 10px;
     background-color: #ABCCBD;
+    z-index: 2;
 }
 
+.top{
+	position: absolute;
+	top: 220px;
+}
+
+.categorySearch{
+	position: absolute;
+	top: 250px;
+	padding-left: 5%;
+}
+
+.categoryLinks{
+	position: absolute;
+	top: 500px;
+	padding-left: 5%;
+}
+
+.swPreview{
+	position: absolute;
+	top: 800px;
+}
 /* extra notes go here */
