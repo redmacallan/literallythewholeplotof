@@ -1,4 +1,5 @@
 /* all general selectors are here at the top */
+
 body {
 	background-color: #E4DED0;
 	font-family: 'Roboto', sans-serif;
@@ -11,16 +12,20 @@ h1 {
 	border: 3px #181619 solid;
 	padding-top: 5px;
     padding-bottom: 70px;
+    padding-left: 10px;
     text-transform: lowercase;
+    border-radius: 10px;
 }
 
 /* class and id selectors go here 
 this is mostly to help with positioning */
 
 .header {
-	position: absolute;
+	position: fixed;
 	top: 0px;
 	left: 0px;
+	width: 500px;
+	height: 200px;
 }
 
 /* for katherine: this does mess up the layout of the page, but only temporarily*/
