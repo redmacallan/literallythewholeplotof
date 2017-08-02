@@ -1,3 +1,4 @@
+/* all general selectors are here at the top */
 body {
 	background-color: #E4DED0;
 	font-family: 'Roboto', sans-serif;
@@ -12,3 +13,14 @@ h1 {
     padding-bottom: 70px;
     text-transform: lowercase;
 }
+
+/* class and id selectors go here 
+this is mostly to help with positioning */
+
+.header {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+/* for katherine: this does mess up the layout of the page, but only temporarily*/
