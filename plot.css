@@ -61,6 +61,16 @@ this is mostly to help with positioning */
 	height: 25px;
 }
 
+.oop{
+	position: relative;
+	top: 100px;
+}
+
+.oop2{
+	position: relative;
+	top: 200px;
+}
+
 #about{
 	position: relative;
 	top: 30px;
