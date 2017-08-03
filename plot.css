@@ -80,6 +80,7 @@ this is mostly to help with positioning */
     top: 5%;
     right: 5%;
     z-index: 5;
+    border-radius: 5px;
 }
 
 #panel {
