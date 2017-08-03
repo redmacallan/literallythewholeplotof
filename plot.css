@@ -85,4 +85,8 @@ this is mostly to help with positioning */
     border-radius: 10px;
 }
 
+.btn-info{
+	color: white;
+}
+
 /* extra notes go here */
