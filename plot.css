@@ -85,7 +85,8 @@ this is mostly to help with positioning */
 
 #panel {
 	background-color:#7DBEB8;
-    padding: 30px;
+    padding-top: 60px;
+    padding-bottom: 20px;
     display: none;
     position: static;
     width: 98%;
