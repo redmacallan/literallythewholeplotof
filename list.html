@@ -5,10 +5,23 @@
         <link href="https://fonts.googleapis.com/css?family=Kranky|Roboto" rel="stylesheet">
         <link rel='stylesheet' href='css/bootstrap.min.css'>
   		<link rel='stylesheet' href='plot.css'>
+
+        <!-- Scripts go here -->
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+            <script> 
+            $(document).ready(function(){
+            $("#flip").click(function(){
+            $("#panel").slideToggle("slow");
+                });
+                });
+            </script>
     </head>
     <body>
         <div class= "jumbotron">
             <div class="header"><h1>literallythewholeplotof...</h1></div>
+        </div>
+        <div id="flip"> <img class="img-responsive" src="images/menu.jpg" style="width:50px;height:50px;"></div>
+        <div id="panel"><a href="about.html">About us</a></div>
             <h2 class="top">Find a Series</h2>
                 <div class="container">
                     <div class="categorySearch">

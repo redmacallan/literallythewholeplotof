@@ -68,8 +68,8 @@ this is mostly to help with positioning */
 #panel, #flip {
     padding: 5px;
     text-align: center;
-    background-color: #e5eecc;
-    border: solid 1px #c3c3c3;
+    background-color: white;
+    border: 3px #181619 solid;
     position: fixed;
     top: 5%;
     right: 5%;
@@ -77,10 +77,12 @@ this is mostly to help with positioning */
 }
 
 #panel {
-    padding: 50px;
+	background-color:#7DBEB8;
+    padding: 30px;
     display: none;
-    position: relative;
+    position: static;
     width: 98%;
+    border-radius: 10px;
 }
 
 /* extra notes go here */
