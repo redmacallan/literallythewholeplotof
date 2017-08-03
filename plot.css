@@ -4,6 +4,7 @@ body {
 	background-color: #E4DED0;
 	font-family: 'Roboto', sans-serif;
 	color: #181619;
+	text-transform: lowercase;
 }
 
 /* class and id selectors go here 
@@ -89,4 +90,14 @@ this is mostly to help with positioning */
 	color: white;
 }
 
+/* backgrounds here */
+
+.one {
+
+}
+
+.two {
+	background-image: "two.jpg";
+	z-index: 1;
+}
 /* extra notes go here */
