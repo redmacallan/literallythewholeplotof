@@ -56,6 +56,11 @@ this is mostly to help with positioning */
 	padding-left: 5%;
 }
 
+.social{
+	width: 25px;
+	height: 25px;
+}
+
 #about{
 	position: relative;
 	top: 30px;
@@ -90,14 +95,5 @@ this is mostly to help with positioning */
 	color: white;
 }
 
-/* backgrounds here */
 
-.one {
-
-}
-
-.two {
-	background-image: "two.jpg";
-	z-index: 1;
-}
 /* extra notes go here */
